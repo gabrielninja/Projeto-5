@@ -15,7 +15,7 @@
     <body>
         <%@include file="WEB-INF/jspf/navbar.jspf"%>
         <%try{%>
-        <table border="1">
+        <table border="2">
             <tr>
                 <th>Id</th>
                 <th>Nome</th>
