@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Lucca
+ * @author Jefferson
  */
 public class Manufacturer {
 

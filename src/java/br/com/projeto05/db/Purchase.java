@@ -7,7 +7,7 @@ package br.com.projeto05.db;
 
 /**
  *
- * @author Jefferson
+ * @author Lucca
  */
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Jefferson
+ * @author Lucca
  */
 public class Purchase {
 
