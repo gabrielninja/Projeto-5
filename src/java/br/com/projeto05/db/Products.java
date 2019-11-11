@@ -17,7 +17,7 @@ import java.util.ArrayList;
  */
 public class Products {
 
-    private int id;
+    private int id_produto;
     private String description;
   
 
@@ -43,16 +43,16 @@ public class Products {
     }
 
     public Products(int id, String description) {
-        this.id = id;
+        this.id_produto = id;
         this.description = description;
     }
 
     public int getId() {
-        return id;
+        return id_produto;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.id_produto = id;
     }
     
   public String getDescription() {
