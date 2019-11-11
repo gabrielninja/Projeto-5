@@ -14,7 +14,7 @@
     <body>
         <%@include file="WEB-INF/jspf/navbar.jspf"%>
             <h1>Clientes</h1>
-        <table border="1">
+        <table border="2">
             <tr>
                 <th>ID</th>
                 <th>Nome</th>
