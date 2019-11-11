@@ -1,7 +1,7 @@
 <%-- 
     Document   : Compras
     Created on : 10/11/2019, 19:54:33
-    Author     : Carol
+    Author     : Lucca
 --%>
 <%@page import="br.com.projeto05.db.Purchase"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

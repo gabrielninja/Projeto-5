@@ -1,7 +1,7 @@
 <%-- 
     Document   : products
     Created on : 10/11/2019, 15:49:01
-    Author     : cassianolucasvieira
+    Author     : Lucca e Gabriel
 --%>
 <%@page import="br.com.projeto05.db.Products"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : customer
     Created on : 10/11/2019, 15:32:54
-    Author     : cassianolucasvieira
+    Author     : Jefferson
 --%>
 <%@page import="br.com.projeto05.db.Customer"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

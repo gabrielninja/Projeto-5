@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author cassianolucasvieira
+ * @author Lucca
  */
 public class Customer {
      private Integer id_customer;

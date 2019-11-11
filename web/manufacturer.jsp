@@ -1,7 +1,7 @@
 <%-- 
     Document   : manufacturer
     Created on : 08/11/2019, 17:18:18
-    Author     : yficklis
+    Author     : Jefferson
 --%>
 
 <%@page import="br.com.projeto05.db.Manufacturer"%>

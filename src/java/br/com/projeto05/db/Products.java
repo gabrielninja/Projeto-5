@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author cassianolucasvieira
+ * @author Gabriel
  */
 public class Products {
 
