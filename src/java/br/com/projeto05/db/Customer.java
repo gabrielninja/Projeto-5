@@ -21,10 +21,10 @@ public class Customer {
     private String nome;
     private String email;
 
-    public Customer(Integer id, String nome, String email) {
-        this.id_customer = id_customer;
+    public Customer(Integer id, String nome) {
+        this.id_customer = id;
         this.nome = nome;
-        this.email = email;
+        
     }
     public static ArrayList<Customer> getClientes() throws ClassNotFoundException, SQLException{
         ArrayList<Customer> clientes = new ArrayList<>();
@@ -42,7 +42,7 @@ public class Customer {
         Statement stmt = con.createStatement();
         
        
-        String sql = "SELECT CUSTOMER_ID, NAME, EMAIL FROM CUSTOMER";
+        String sql = "SELECT CUSTOMER_ID, NAME FROM CUSTOMER";
         ResultSet rs = stmt.executeQuery(sql);
         
     
@@ -50,10 +50,10 @@ public class Customer {
           
             Integer id = rs.getInt("CUSTOMER_ID");
             String nome = rs.getString("NAME");
-            String email = rs.getString("EMAIL");
+       
             
        
-            Customer c = new Customer(id, nome, email);
+            Customer c = new Customer(id, nome);
             
             clientes.add(c);
         }

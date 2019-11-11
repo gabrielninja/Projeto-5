@@ -16,7 +16,7 @@
         <%try{%>
         <table border="1">
             <tr> 
-                <a href="purchase.jsp">Compras</a></h2>
+               
                 <th>Id</th>
                 <th>Descrição</th>
                 

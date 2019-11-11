@@ -1,4 +1,4 @@
-<%-- 
+ <%-- 
     Document   : customer
     Created on : 10/11/2019, 15:32:54
     Author     : Jefferson
@@ -18,7 +18,7 @@
             <tr>
                 <th>ID</th>
                 <th>Nome</th>
-                <th>Email</th>
+                
             </tr>
             <%try{%>
             <% for (Customer c : Customer.getClientes()) {%>
@@ -29,7 +29,7 @@
                     <a href="Compras.jsp?id=<%= c.getId()%>">
                     <%=c.getNome()%></th>
                 
-                <th><%=c.getEmail()%></th>
+                
             </tr>
             <%}%>
             <%}catch(Exception ex){%>
