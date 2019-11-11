@@ -8,7 +8,19 @@
     <body>
         <%@include file="WEB-INF/jspf/navbar.jspf"%>
         <h1>Home</h1>
-        <h2><a href="customer.jsp">Clientes</a></h2>
-        <h2><a href="manufacturer.jsp">Fabricantes</a></h2>
+        <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			 
+			<button type="button" class="btn btn-primary btn-lg btn-block active">
+				<a href="customer.jsp">Clientes</a>
+			</button> 
+			<button type="button" class="btn btn-primary btn-lg btn-block active">
+				<a href="manufacturer.jsp">Fabricantes</a>
+			</button>
+			
+		</div>
+	</div>
+</div>
     </body>
 </html>
